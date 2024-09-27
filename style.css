@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "custom font";
+    src: url('./Font/Caveat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "my font";
+    src: url('./Font/Caveat-Bold.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #335557;
+}
+
+
+.container {
+    background-color:  cadetblue;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 30%;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 20px;
+    border: 1px solid #62a0a2;
+
+}
+
+h1 {
+    color: #006A4E;
+    font-family: "custom font";
+    margin-top: 10px;
+    margin-left: 40%;
+    
+
+}
+
+.inner-container {
+    font-family: 'my font';
+    margin-left: 20px;
+}
+
+input {
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #1CAC78;
+    color: #fff;
+}
+
